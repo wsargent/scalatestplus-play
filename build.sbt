@@ -32,7 +32,7 @@ lazy val `scalatestplus-play` = project
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "2.2.6",
       "com.typesafe.play" %% "play-test" % PlayVersion,
-      "org.seleniumhq.selenium" % "selenium-java" % "2.48.2",
+      "org.seleniumhq.selenium" % "selenium-java" % "2.52.0",
       "com.typesafe.play" %% "play-ws" % PlayVersion,
       "com.typesafe.play" %% "play-cache" % PlayVersion % Test
     ),
